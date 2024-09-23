@@ -37,10 +37,10 @@ export default function Sobre() {
                         </div>
                         <h2 className="text-4xl mt-[20px]">Contato</h2>
                         <div className='flex mt-[20px] gap-7'>
-                        <img src={github} alt="fotogithub" className='size-[77px]'/>
-                        <img src={linkedin} alt="fotolinkedin" className='size-[77px]'/>
-                        <img src={whatsapp} alt="fotowhatsapp" className='size-[77px]'/>
-                        <img src={curriculo} alt="fotocurriculo" className='size-[77px]'/>
+                            <a href=""><img src={github} alt="fotogithub" className='size-[77px]'/></a>
+                            <a href=""><img src={linkedin} alt="fotolinkedin" className='size-[77px]'/></a>
+                            <a href=""><img src={whatsapp} alt="fotowhatsapp" className='size-[77px]'/></a>
+                            <a href=""><img src={curriculo} alt="fotocurriculo" className='size-[77px]'/></a>
                         </div>
                     </div>
                 </div>
