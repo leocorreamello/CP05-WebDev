@@ -5,3 +5,9 @@
 .active{
   border-bottom: 2px solid white;
 }
+
+@layer utilities {
+  .border-gradient {
+    border: 4px solid #0500FF;
+  }
+}
