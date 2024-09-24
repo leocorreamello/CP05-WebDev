@@ -39,34 +39,40 @@ export default function Home() {
                     <h1 className='text-2xl mb-4'>Preencha o formulário abaixo para entrar em contato comigo. 
                         Deixe seu feedback sobre o site, tire<br />dúvidas sobre algo ou me contrate!
                     </h1>
-                    <div className='bg-white text-black'>
+                    <div className='bg-white text-black rounded-[20px]'>
                         <form onSubmit=''>
-                            <div className='flex justify-items-center justify-center justify-self-center content-center items-center'>
-                                <div>
-                                    <label htmlFor="nome">Nome:</label>
+                            <div className='flex justify-items-center justify-center justify-self-center content-center items-center mb-4 mt-4'>
+                                <div className='mt-4'>
+                                    <label htmlFor="nome">Nome</label><br />
                                     <input
+                                    className='border-2 border-black p-2 mr-3'
                                     type="text"
                                     id="nome"
+                                    placeholder='Digite aqui seu nome...'
                                     required
                                     />
                                 </div>
-                                <div>
-                                    <label htmlFor="email">Email:</label>
+                                <div className='mt-4'>
+                                    <label htmlFor="email">Email</label><br />
                                     <input
+                                    className='border-2 border-black p-2'
                                     type="email"
                                     id="email"
+                                    placeholder='seuemail@email.com'
                                     required
                                     />
                                 </div>
                             </div>
-                            <div>
-                                <label htmlFor="mensagem">Mensagem:</label>
+                            <div className='mb-4'>
+                                <label htmlFor="mensagem">Mensagem</label><br />
                                 <textarea
+                                className='border-2 border-black p-2 w-[500px] h-20'
                                 id="mensagem"
+                                placeholder='Deixe aqui sua mensagem de feedback, dúvida ou contato'
                                 required
                                 />
                             </div>
-                            <button type="submit">Enviar</button>
+                            <button type="submit" className='bg-black text-white mb-4 h-10 w-16'>Enviar</button>
                         </form>
                     </div>
                 </div>
