@@ -18,9 +18,9 @@ export default function Home() {
                         <h1 className="text-8xl">Engenheiro de Software</h1>
                     </div>
                     <div className='flex mx-32 mt-6 gap-6'>
-                        <a href=""><img src={github3} alt="fotogit" className='size-[77px]'/></a>
-                        <a href=""><img src={linkedin2} alt="fotolinkedin" className='size-[77px]'/></a>
-                        <a href=""><img src={whatsapp2} alt="fotowhatsapp" className='size-[77px]'/></a>
+                        <a href="https://github.com/leocorreamello" target='_blank'><img src={github3} alt="fotogit" className='size-[77px]'/></a>
+                        <a href="https://www.linkedin.com/in/leocorreamello/" target='_blank'><img src={linkedin2} alt="fotolinkedin" className='size-[77px]'/></a>
+                        <a href="#"><img src={whatsapp2} alt="fotowhatsapp" className='size-[77px]'/></a>
                     </div>
                     
                 </div>
