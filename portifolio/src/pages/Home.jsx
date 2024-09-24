@@ -33,29 +33,30 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center'>
-                <div className='flex-col text-center'>
-                    <h1 className='text-6xl mb-4'>Contato</h1>
-                    <h1 className='text-2xl mb-4'>Preencha o formulário abaixo para entrar em contato comigo. 
-                        Deixe seu feedback sobre o site, tire<br />dúvidas sobre algo ou me contrate!
+            <div className='flex justify-center p-4'>
+                <div className='flex-col text-center w-full max-w-4xl'>
+                    <h1 className='text-4xl md:text-6xl mb-4'>Contato</h1>
+                    <h1 className='text-xl md:text-2xl mb-4'>
+                        Preencha o formulário abaixo para entrar em contato comigo. 
+                        Deixe seu feedback sobre o site, tire dúvidas sobre algo ou me contrate!
                     </h1>
-                    <div className='bg-white text-black rounded-[20px]'>
+                    <div className='bg-white text-black rounded-[20px] p-4'>
                         <form onSubmit=''>
-                            <div className='flex justify-items-center justify-center justify-self-center content-center items-center mb-4 mt-4'>
-                                <div className='mt-4'>
+                            <div className='flex flex-col md:flex-row justify-center items-center mb-4 mt-4'>
+                                <div className='mt-4 md:mr-3 w-full md:w-auto'>
                                     <label htmlFor="nome">Nome</label><br />
                                     <input
-                                    className='border-2 border-black p-2 mr-3'
+                                    className='border-2 border-black p-2 w-full md:w-auto'
                                     type="text"
                                     id="nome"
                                     placeholder='Digite aqui seu nome...'
                                     required
                                     />
                                 </div>
-                                <div className='mt-4'>
+                                <div className='mt-4 w-full md:w-auto'>
                                     <label htmlFor="email">Email</label><br />
                                     <input
-                                    className='border-2 border-black p-2'
+                                    className='border-2 border-black p-2 w-full md:w-auto'
                                     type="email"
                                     id="email"
                                     placeholder='seuemail@email.com'
@@ -66,13 +67,17 @@ export default function Home() {
                             <div className='mb-4'>
                                 <label htmlFor="mensagem">Mensagem</label><br />
                                 <textarea
-                                className='border-2 border-black p-2 w-[500px] h-20'
+                                className='border-2 border-black p-2 w-full h-32 md:w-[500px] md:h-20'
                                 id="mensagem"
                                 placeholder='Deixe aqui sua mensagem de feedback, dúvida ou contato'
                                 required
                                 />
                             </div>
-                            <button type="submit" className='bg-black text-white mb-4 h-10 w-16'>Enviar</button>
+                            <div className='flex justify-center'>
+                                <button type="submit" className='bg-gradient-to-r from-[#00aeff] to-[#0500FF] text-white p-2 rounded-md'>
+                                    Enviar
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

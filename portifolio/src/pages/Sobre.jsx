@@ -16,31 +16,31 @@ export default function Sobre() {
     return (
         <>
           <main>
-            <div className="flex items-center min-h-screen justify-center">
-                <img src={fotoeu} alt="minha foto" className='w-[500px] rounded-full outline outline-[#0500FF] absolute mr-[900px]'/>
-                <div className="flex bg-[#50616B] rounded-[40px] border-gradient size-3/5 ml-48 h-[700px]">
+            <div className="flex items-center min-h-screen justify-center p-4">
+                <img src={fotoeu} alt="minha foto" className='w-[500px] rounded-full outline outline-[#0500FF] absolute mr-[1150px]'/>
+                <div className="bg-[#50616B] rounded-[40px] border-4 border-gradient p-6 w-full max-w-6xl">
                     <div className='ml-[400px] mr-[100px] mt-[50px]'>
-                        <h1 className="text-6xl text-center">Leonardo Mello</h1>
-                        <p className="text-3xl text-justify mt-[20px]">
+                        <h1 className="text-4xl md:text-6xl text-center">Leonardo Mello</h1>
+                        <p className="text-xl md:text-3xl text-justify mt-4">
                             Olá, me chamo Leonardo Mello, tenho 19 anos de idade e atualmente estou cursando Engenharia de Software 
                             na FIAP. Estou à procura do meu primeiro estágio na área.
                         </p>
-                        <h2 className="text-4xl mt-[20px]">Tecnologias</h2>
-                        <div className='flex mt-[20px] gap-4'>
-                            <img src={html} alt="fotohtml" className='size-[77px]'/>
-                            <img src={css} alt="fotocss" className='size-[77px]'/>
-                            <img src={js} alt="fotojs" className='size-[77px]'/>
-                            <img src={react} alt="fotoreact" className='size-[77px]'/>
-                            <img src={bootstrap} alt="fotoboot" className='size-[77px]'/>
-                            <img src={java} alt="fotojava" className='size-[77px]'/>
-                            <img src={git} alt="fotogit" className='size-[77px]'/>
+                        <h2 className="text-2xl md:text-4xl mt-4 text-center">Tecnologias</h2>
+                        <div className='flex flex-wrap justify-center mt-4 gap-4'>
+                            <img src={html} alt="fotohtml" className="w-16 h-16 md:w-20 md:h-20"/>
+                            <img src={css} alt="fotocss" className="w-16 h-16 md:w-20 md:h-20"/>
+                            <img src={js} alt="fotojs" className="w-16 h-16 md:w-20 md:h-20"/>
+                            <img src={react} alt="fotoreact" className="w-16 h-16 md:w-20 md:h-20"/>
+                            <img src={bootstrap} alt="fotoboot" className="w-16 h-16 md:w-20 md:h-20"/>
+                            <img src={java} alt="fotojava" className="w-16 h-16 md:w-20 md:h-20"/>
+                            <img src={git} alt="fotogit" className="w-16 h-16 md:w-20 md:h-20"/>
                         </div>
-                        <h2 className="text-4xl mt-[20px]">Contato</h2>
-                        <div className='flex mt-[20px] gap-7'>
-                            <a href=""><img src={github} alt="fotogithub" className='size-[77px]'/></a>
-                            <a href=""><img src={linkedin} alt="fotolinkedin" className='size-[77px]'/></a>
-                            <a href=""><img src={whatsapp} alt="fotowhatsapp" className='size-[77px]'/></a>
-                            <a href=""><img src={curriculo} alt="fotocurriculo" className='size-[77px]'/></a>
+                        <h2 className="text-2xl md:text-4xl mt-4 text-center">Contato</h2>
+                        <div className='flex flex-wrap justify-center mt-4 gap-4'>
+                            <a href=""><img src={github} alt="fotogithub" className="w-16 h-16 md:w-20 md:h-20"/></a>
+                            <a href=""><img src={linkedin} alt="fotolinkedin" className="w-16 h-16 md:w-20 md:h-20"/></a>
+                            <a href=""><img src={whatsapp} alt="fotowhatsapp" className="w-16 h-16 md:w-20 md:h-20"/></a>
+                            <a href=""><img src={curriculo} alt="fotocurriculo" className="w-16 h-16 md:w-20 md:h-20"/></a>
                         </div>
                     </div>
                 </div>
