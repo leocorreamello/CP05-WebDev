@@ -5,7 +5,7 @@ import projeto3 from '../../public/minerede.png'
 import projeto4 from '../../public/lixeira.png'
 import projeto5 from '../../public/portfolio.png'
 import codigo from '../../public/codigo.jpg'
-import site from '../../public/site.jpg'
+import site from '../../public/SITE.jpg'
 
 export default function Projetos() {
 
