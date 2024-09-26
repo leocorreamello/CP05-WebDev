@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import projeto1 from '../../public/westwise.png'
-import projeto2 from '../../public/e-commerce.png'
+import projeto2 from '../../public/ecommerce.png'
 import projeto3 from '../../public/minerede.png'
 import projeto4 from '../../public/lixeira.png'
 import projeto5 from '../../public/portfolio.png'
